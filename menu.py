@@ -20,3 +20,5 @@ class Menu:
 					back(self.parent_obj)
 				else:
 					v["action"]()
+			elif selection == "":
+				back(self.menu_obj)
