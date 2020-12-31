@@ -21,7 +21,7 @@ class Menu:
 				if selection in v:
 					for k, v in self.menu_obj.items():
 						if selection == v["key"]:
-							if v["action"] == qmenu: # Use menu.back if importing
+							if v["action"] == qmenu: # Use menu.qmenu if importing
 								qmenu(self.parent_obj)
 							else:
 								v["action"]()
