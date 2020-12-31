@@ -57,7 +57,7 @@ example_load_menu_obj = {
 		"key": "3"
 	},
 	"[4] Back": {
-		"action": menu.back,
+		"action": menu.qmenu,
 		"key": "4"
 	}
 }
@@ -76,7 +76,7 @@ example_settings_menu_obj = {
 		"key": "3"
 	},
 	"[4] Back": {
-		"action": menu.back,
+		"action": menu.qmenu,
 		"key": "4"
 	}
 }
